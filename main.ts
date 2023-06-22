@@ -1,1 +1,3 @@
-console.log('Hello, world!')
+import { balanceUpdate } from './websocket'
+
+balanceUpdate(1, '123')
