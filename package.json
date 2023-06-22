@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf dist && tsc --build && ./index.js"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}
